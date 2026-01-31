@@ -1,0 +1,8 @@
+// 1.20.1	2025-09-27T15:52:38.5612875	Tags for minecraft:block mod id seven_systems
+0a0bbd11db5b71cedbccd7652fb735e136c27705 data/minecraft/tags/blocks/farmland.json
+bfcb6462afa333d18e573bca551ad3de6bf0e87e data/minecraft/tags/blocks/grass_block.json
+3d82624b283b42aef93a649ff3ceaa030f843d50 data/minecraft/tags/blocks/mineable/pickaxe.json
+8091a865438b23f217ec7d1126489c9516ceb78d data/minecraft/tags/blocks/mineable/shovel.json
+bc6279f505c8355e32b18a98498615e9b293220d data/minecraft/tags/blocks/supports_plants.json
+c85fd4c29cca0b55b7557614ec33e7c26ebfc29e data/minecraft/tags/blocks/walls.json
+eb033f3be1f219363d25aeb7640ed6133c067ab5 data/sevensystems/tags/blocks/plantable_on_fire_grass.json

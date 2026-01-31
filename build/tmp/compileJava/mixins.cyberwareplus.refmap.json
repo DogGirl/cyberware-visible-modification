@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/msdoggirl/cyberwareplus/mixin/AbstractClientPlayerMixin": {
+      "getSkinTextureLocation()Lnet/minecraft/resources/ResourceLocation;": "Lnet/minecraft/client/player/AbstractClientPlayer;m_108560_()Lnet/minecraft/resources/ResourceLocation;"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/msdoggirl/cyberwareplus/mixin/AbstractClientPlayerMixin": {
+        "getSkinTextureLocation()Lnet/minecraft/resources/ResourceLocation;": "Lnet/minecraft/client/player/AbstractClientPlayer;m_108560_()Lnet/minecraft/resources/ResourceLocation;"
+      }
+    }
+  }
+}

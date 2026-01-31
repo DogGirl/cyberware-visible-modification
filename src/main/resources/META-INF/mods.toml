@@ -1,0 +1,17 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+modId="cyberwareplus"
+version="1.0"
+displayName="Cyberware Plus"
+authors="msdoggirl"
+[[dependencies.cyberwareplus]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+[[mixins]]
+config="mixins.cyberwareplus.json"
+

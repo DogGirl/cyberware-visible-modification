@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "cross": "seven_systems:block/double_tall_fire_grass_bottom"
+  }
+}

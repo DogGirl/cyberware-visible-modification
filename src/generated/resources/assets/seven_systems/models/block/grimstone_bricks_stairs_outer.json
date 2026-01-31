@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "seven_systems:block/grimstone_bricks",
+    "side": "seven_systems:block/grimstone_bricks",
+    "top": "seven_systems:block/grimstone_bricks"
+  }
+}

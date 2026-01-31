@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "seven_systems:block/infernalwood_planks"
+  }
+}

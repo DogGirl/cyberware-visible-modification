@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "seven_systems:block/infernalwood_wall_sign"
+  }
+}

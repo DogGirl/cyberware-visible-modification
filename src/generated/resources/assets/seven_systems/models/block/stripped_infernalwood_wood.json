@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "seven_systems:block/stripped_infernalwood_log",
+    "side": "seven_systems:block/stripped_infernalwood_log"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "seven_systems:block/infernalwood_planks",
+    "side": "seven_systems:block/infernalwood_planks",
+    "top": "seven_systems:block/infernalwood_planks"
+  }
+}

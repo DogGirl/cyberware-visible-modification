@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "seven_systems:block/infernalwood_planks"
+  }
+}

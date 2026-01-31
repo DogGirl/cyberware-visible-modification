@@ -1,0 +1,26 @@
+{
+  "mappings": {
+    "com/msdoggirl/sevensystems/mixin/BlockItemMixin": {
+      "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;": "Lnet/minecraft/world/item/BlockItem;m_6225_(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;"
+    },
+    "com/msdoggirl/sevensystems/mixin/LevelRendererMixin": {
+      "tickRain(Lnet/minecraft/client/Camera;)V": "Lnet/minecraft/client/renderer/LevelRenderer;m_109693_(Lnet/minecraft/client/Camera;)V"
+    },
+    "com/msdoggirl/sevensystems/mixin/CropBlockMixin": {
+      "mayPlaceOn(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z": "Lnet/minecraft/world/level/block/CropBlock;m_6266_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/msdoggirl/sevensystems/mixin/BlockItemMixin": {
+        "useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;": "Lnet/minecraft/world/item/BlockItem;m_6225_(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;"
+      },
+      "com/msdoggirl/sevensystems/mixin/LevelRendererMixin": {
+        "tickRain(Lnet/minecraft/client/Camera;)V": "Lnet/minecraft/client/renderer/LevelRenderer;m_109693_(Lnet/minecraft/client/Camera;)V"
+      },
+      "com/msdoggirl/sevensystems/mixin/CropBlockMixin": {
+        "mayPlaceOn(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z": "Lnet/minecraft/world/level/block/CropBlock;m_6266_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z"
+      }
+    }
+  }
+}

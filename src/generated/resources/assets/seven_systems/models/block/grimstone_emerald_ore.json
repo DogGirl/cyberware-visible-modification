@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "seven_systems:block/grimstone_emerald_ore"
+  }
+}

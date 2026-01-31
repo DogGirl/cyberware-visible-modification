@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "seven_systems:block/infernalwood_wood_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "seven_systems:block/infernalwood_wood"
+    },
+    "axis=z": {
+      "model": "seven_systems:block/infernalwood_wood_horizontal",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,82 @@
+// ──────────────────────────────────────────────────────
+// plugins – use the plugin DSL so FG6 can create run tasks
+// ──────────────────────────────────────────────────────
+plugins {
+    id 'net.minecraftforge.gradle' version '6.0.23'
+    id 'org.parchmentmc.librarian.forgegradle' version '1.+'
+    id 'maven-publish'
+    id 'org.spongepowered.mixin' version '0.7.+'
+}
+
+
+
+group = 'com.msdoggirl.cyberwareplus'
+version = '1.0.0'
+archivesBaseName = 'cyberwareplus'
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+mixin {
+    add sourceSets.main, "mixins.cyberwareplus.refmap.json"
+    config "mixins.cyberwareplus.json"
+}
+
+// ──────────────────────────────────────────────────────
+// Minecraft / Forge
+// ──────────────────────────────────────────────────────
+minecraft {
+    mappings channel: 'parchment', version: '2023.09.03-1.20.1'
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            mods { cyberwareplus { source sourceSets.main } }
+        }
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            mods { cyberwareplus { source sourceSets.main } }
+        }
+        data {
+            workingDirectory project.file('run')
+            args '--mod', 'seven_systems', '--all',
+                 '--output', file('src/generated/resources/'),
+                 '--existing', file('src/main/resources/')
+            mods { cyberwareplus { source sourceSets.main } }
+        }
+
+    }
+}
+
+repositories {
+    maven { url = 'https://maven.tterrag.com/' }
+    maven { url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }  
+    maven { url "https://cursemaven.com"}
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.0:mapped_parchment_2023.09.03-1.20.1'
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+    implementation fg.deobf("curse.maven:cyberware-reforged-1401640:7468938")
+    implementation fg.deobf("curse.maven:epic-fight-mod-405076:7213635")
+}
+
+
+jar {
+    manifest {
+        attributes(
+            'Specification-Title'     : 'cyberwareplus',
+            'Specification-Vendor'    : 'MsDogGirl',
+            'Implementation-Title'    : project.name,
+            'Implementation-Version'  : version,
+            'Implementation-Vendor'   : 'MsDogGirl'
+        )
+    }
+}

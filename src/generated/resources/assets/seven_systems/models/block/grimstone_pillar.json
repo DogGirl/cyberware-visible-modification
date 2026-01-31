@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "seven_systems:block/grimstone_pillar_top",
+    "side": "seven_systems:block/grimstone_pillar"
+  }
+}

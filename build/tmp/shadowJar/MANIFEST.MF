@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Specification-Title: seven_systems
+Specification-Vendor: MsDogGirl
+Implementation-Title: seven_systems
+Implementation-Version: 1.0.0
+Implementation-Vendor: MsDogGirl
+MixinConfigs: mixins.seven_systems.json
+

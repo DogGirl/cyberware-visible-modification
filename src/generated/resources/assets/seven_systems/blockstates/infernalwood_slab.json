@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "seven_systems:block/infernalwood_slab"
+    },
+    "type=double": {
+      "model": "seven_systems:block/infernalwood_slab_double"
+    },
+    "type=top": {
+      "model": "seven_systems:block/infernalwood_slab_top"
+    }
+  }
+}

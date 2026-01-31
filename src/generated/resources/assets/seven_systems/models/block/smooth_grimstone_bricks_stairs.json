@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "seven_systems:block/smooth_grimstone_bricks",
+    "side": "seven_systems:block/smooth_grimstone_bricks",
+    "top": "seven_systems:block/smooth_grimstone_bricks"
+  }
+}

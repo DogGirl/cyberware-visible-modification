@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.msdoggirl.cyberwareplus.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mixins.cyberwareplus.refmap.json",
+  "mixins": [
+    "AbstractClientPlayerMixin",
+    "CyberwarePlayerLayerMixin"
+  ],
+  "client": [
+    "AbstractClientPlayerMixin",
+    "CyberwarePlayerLayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "verbose": true
+}
