@@ -6,6 +6,7 @@ modId="cyberwareplus"
 version="1.1"
 displayName="Cyberware Plus"
 authors="msdoggirl"
+description="Addon to Cyberware: Reforged that adds overhauled aesthetics with high mod compatibility."
 [[dependencies.cyberwareplus]]
     modId="forge"
     mandatory=true
